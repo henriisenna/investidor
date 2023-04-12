@@ -26,8 +26,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://4.bp.blogspot.com/-9kYSwCDRbms/W-qSUvwnFWI/AAAAAAAAEsE/j4EeFEPQHBc-QpxMV9l3gQAaLAuG2WhTgCLcBGAs/s1600/spring-framework.png" alt="Logo" width="300" height="150">
+  <a href="https://golang.org/doc/go1.16">
+    <img src="https://img.shields.io/badge/Go-1.16+-00ADD8?style=flat&logo=go"alt="Logo" width="600" >
   </a>
 
   <h2 align="center">Serviço Carteira</h2>
@@ -39,7 +39,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-Breve descrição do projeto e seu objetivo.
+Este projeto consiste em desenvolver um micro serviço que trabalhará com outros micro serviços: Ativo Financeiro, Investidor e Carteira. Cada micro serviço tem suas próprias responsabilidades e tecnologias.
+
+O micro serviço Investidor é responsável por buscar informações relacionadas ao investidor. Ele será desenvolvido utilizando GO como tecnologia de backend e Sqlite como banco de dados.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,17 +49,10 @@ Breve descrição do projeto e seu objetivo.
 
 ### Construido com
 
-Nesta seção apresente as tecnologias utilizadas para a construção do projeto.
+<a href="https://golang.org/doc/go1.16">
+    <img src="https://img.shields.io/badge/Go-1.16+-00ADD8?style=flat&logo=go">
 
-Exemplo:
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,11 +104,12 @@ Com o serviço em execução, explique como utilizar o projeto, exemplo:
 
 | Microservice | Endpoint | Method | Description |
 | --- | --- | --- | --- |
-| Carteira | /wallet/:id | GET | Retorna informações sobre um ativo específico no portfólio do usuário |
-| Carteira | /wallet | GET | Lista de ativos da carteira do usuário. |
-| Carteira | /wallet | POST | Adiciona um novo ativo para o investidor |
-| Carteira | /wallet/:id | PUT | Atualiza informações específicas da carteira do usuário |
-| Carteira | /wallet/:id | DELETE | Remove um ativo específico da carteira do usuário |
+| Investidor | /investor/:id | GET | Retorna informações sobre um investidor específico |
+| Investidor | /investor | GET | Retorna uma lista de todos os investidores |
+| Investidor | /investor | POST | Cria um novo investidor |
+| Investidor | /investor/:id | PUT | Atualiza informações sobre um investidor específico |
+| Investidor | /investor/:id | DELETE | Exclui um investidor específico |
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +117,7 @@ Com o serviço em execução, explique como utilizar o projeto, exemplo:
 
 <!-- CONTRIBUTING -->
 ## Autores
-Adicione os autores aqui
+André, Thays, Henrique, Danubia, Gabriel
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -134,11 +130,9 @@ Caso exista uma licença, adicione aqui.
 
 
 <!-- CONTACT -->
-## Contato
-Adicione aqui o contato do projeto
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Henrique - henrique.hgsenna@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Link do Projeto: https://github.com/henriisenna/investidor
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
