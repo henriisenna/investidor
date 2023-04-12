@@ -66,31 +66,38 @@ Copie e cole trechos de códigos para realizar a execução do projeto.
 
 ### Pré-requisitos 
 
-Caso exista algum pré-requisito adicione aqui. 
+Antes de executar o aplicativo, certifique-se de ter os seguintes requisitos instalados:
 
-Exemplo:
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Golang (versão 1.16 ou superior)
 
 ### Instalação
 
-Insira o passo a passo de como iniciar o projeto, exemplo:
+Siga as etapas abaixo para instalar e executar o aplicativo:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone o repositório do aplicativo:
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/henriisenna/investidor
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   
+   ou 
+
+   ```sh
+   yarn install
+   ```
+
+3. Execute o aplicativo:
+   ```sh
+   npm run dev
+   ```
+   
+   ou 
+
+   ```sh
+   yarn dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
